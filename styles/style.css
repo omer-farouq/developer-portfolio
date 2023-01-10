@@ -48,6 +48,7 @@ nav li{
     display: flex;
     margin: 0 200px;
     align-items: center;
+    margin-bottom: 200px;
  
 }
 .banner-title{
@@ -73,9 +74,13 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-bottom: 200px;
+
+}
 /* about section styles */
 .about{
-    margin-top: 130px;
+    
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px; 
@@ -95,25 +100,47 @@ main{
     margin-bottom: 30px;
 }
 
-/* table section */
-.table-head{
+.about-info-section{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
     text-align: center;
 }
-.t-head{
-    color: #757575;
-    padding: 0 30px; 
-    font-size: 18px;
-    
-    
-}
-.t-data{
+.info-description{
     color: #474747;
-    padding: 0 30px;
     font-weight: 700;
     font-size: 20px;
 }
-/* what i do section */
-.do-section{
-    /* margin-top: 130px; */
+
+
+/* what i do styles */
+.skills-container{
+    display: flex;
+    gap: 16px;
+}
+.skill{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 200px;
+    
+}
+.skill-title{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-discription{
+    margin-top: 20px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
 
+/* Resume Styles */
